@@ -1,0 +1,342 @@
+PAPER : 1
+name -> Comparative Analysis of Different ML Classification Algorithms with Diabetes
+Prediction through Pima Indian Diabetics Dataset
+
+ABSTRACT->
+
+The various computer or electronic based
+systems were delineated employing miscellaneous classification
+techniques for anticipating and diagnosing diabetes. Selecting
+appropriate classifiers from set of various classification
+algorithms from machine learning family is an undoubtedly
+expands the accuracy and expertise of the system. This paper
+proposed an implementation and comparison statistics of well-
+known supervised ML classification methods such as K-NN,
+Logistic Regression which based on Regression problem, Naïve
+Bayes probabilistic classifier, SVM with both linear and non-
+linear kernel, Decision Tree with Random Forest classifier for
+statistical modelling and accuracy verification. The dataset
+downloaded from kaggle.com, it is a Pima Indians Diabetes
+Database which includes 9 different attributes and 768 records.
+The maximum accuracy obtained for Machine Learning
+classification algorithms is 80.20% which fall under very good
+category model. The CAP Curve Analysis is another
+performance measure which shows 92.26 % accuracy by
+Logistic Regression. The ANN framework is designed to
+improve reliability on system which designed to computer-
+based diagnosis. The proposed research compares accuracy of
+ML classification algorithms and ANN, in which ANN having
+noteworthy improvement in accuracy which is around 97.66
+%.
+
+PAPER : 2
+name ->Analyze Important Features of PIMA Indian Database
+For Diabetes Prediction Using KNN
+
+ABSTRACT->
+
+Some machine learning research has used data from the PIDD (PIMA
+Indian Diabetes Dataset) to predict diabetes. In this research, in
+addition to prediction accuracy, data complexity is also important.
+This research analyzes important features in the PIMA Indian
+database using the KNN (k-nearest neighbor) method for
+classification. The results show that using KNN with k=22 value
+results in the highest accuracy of 83.12%. The analysis also found
+that the important features required by the KNN method to
+achieve high accuracy from the PIMA Indian database, in order
+of importance, are glucose, age, insulin, blood pressure, Body Mass
+Index, pregnancy, skin thickness, and diabetes pedigree function.
+However, when used in the KNN classification method, the
+diabetes pedigree function feature was found to be unnecessary,
+not relevant, and can be reduced.
+
+PAPER : 3
+name -> A COMPARATIVE STUDY OF DIABETES DETECTION USING THE PIMA
+INDIAN DIABETES DATABASE
+
+ABSTRACT->
+
+The accurate detection of diabetes plays a critical role in early intervention and effective management
+of the disease. In recent years, deep learning models have shown great potential in medical diagnosis
+tasks, including diabetes detection. This paper presents a comparative study of three popular models -
+Long Short-Term Memory (LSTM), Random Forest (RF), and Convolutional Neural Network (CNN) -
+for diabetes detection on the widely used Pima Indians Diabetes Database. The study aims to evaluate the
+performance of these models using common evaluation metrics, such as accuracy, precision, recall, F1-
+score, and area under the receiver operating characteristic curve (AUC-ROC). The dataset is
+preprocessed to handle missing values, normalize features, and split into training and testing sets. Each
+model is trained on the training set and evaluated on the testing set. The results of the study show that the
+LSTM model achieves the highest performance across all metrics. It demonstrates the ability to capture
+the temporal nature of the dataset and extract meaningful patterns for accurate diabetes detection. RF
+and CNN models also exhibit promising performance but slightly lower metrics compared to LSTM. In
+the comparative analysis, the strengths and weaknesses of each model are discussed. LSTM, as a
+recurrent neural network, excels in capturing temporal dependencies, while RF offers simplicity and
+interpretability. CNN, although originally designed for image analysis, shows potential when adapted to
+tabular data. The findings of this study have implications for healthcare practitioners and researchers
+working on diabetes detection. The LSTM model achieves its highest accuracy at 85%, demonstrating its
+effectiveness as an accurate method for predicting diabetes using the Pima Indians Diabetes Database
+(PIDD). However, it is important to acknowledge the limitations of the study, such as the relatively small
+dataset size and potential class imbalance in the dataset. Future research can address these limitations and
+further investigate the application of deep learning models in diabetes detection.
+
+PAPER : 4
+name -> Machine Learning for Smartphone-Based Early Detection of
+Diabetic Disease in Pima Indians Diabetes Database
+
+ABSTRACT->
+
+The objective of this research paper is to give decision about the
+presence of diabetics by applying ensemble of machine learning classifying algorithms on features
+extracted from output of different datasets. It will give us accuracy of which algorithm will be
+suitable and more accurate for prediction of the disease. Decision making for predicting the presence
+of diabetic is performed using Linear Regression(LR), Logistic Regression(LoR), K Nearest
+Neighbors(KNN), Decision Tree(DT), Support Vector Machine(SVM), Naïve Bayes(NB), Random
+Forest(RF), The experimental results has been analysed by using Jupyter Notebook. Among all the
+mentioned Supervised machine learning algorithm RF approach show a highest classification
+accuracy (CA) of 89.58. From this, we can infer that for diabetic the RF approach gives the best
+performance compared to all other approaches.
+
+PAPER : 5
+name -> Genetic algorithm based feature selection and MOE Fuzzy classification
+algorithm on Pima Indians Diabetes dataset
+
+ABSTRACT->
+
+Diabetes Mellitus is a dreadful disease
+characterized by increased levels of glucose in the blood, termed
+as the condition of hyperglycemia. As this disease is prominent
+among the tropical countries like India, an intense research is
+being carried out to deliver a machine learning model that could
+learn from previous patient records in order to deliver smart
+diagnosis. This research work aims to improve the accuracy of
+existing diagnostic methods for the prediction of Type 2 Diabetes
+with machine learning algorithms. The proposed algorithm
+selects the essential features from the Pima Indians Diabetes
+Dataset with Goldberg’s Genetic algorithm in the pre-processing
+stage and a Multi Objective Evolutionary Fuzzy Classifier is
+applied on the dataset. This algorithm works on the principle of
+maximum classifier rate and minimum rules. As a result of
+feature selection with GA the number of features is reduced to 4
+from 8 and the classifier rate is improved to 83.0435 % with
+NSGA II in training rate of 70% and 30% testing.
+
+PAPER : 6
+name -> Prediction of the Onset of Diabetes Using Artificial Neural Network and Pima
+Indians Diabetes Dataset
+
+ABSTRACT->
+
+When a human body unable to respond to the
+insulin properly and/or unable to produce the required amount
+of insulin to regulate glucose, it means that the human body is
+suffering from Diabetes. Diabetes increases the risk of developing
+another disease like heart disease, kidney disease, and damage
+to blood vessels, nerve damage, and blindness. The diagnosis of
+diabetes using proper analysis of diabetes data is a significant
+problem. In this paper, an automatic diagnosis system is intro-
+duced and analyzed. For this purpose, a Three-Layered Artificial
+Neural Network (ANN) and Pima Indians Diabetes dataset are
+used. In this ANN based prediction model, a logistic-activation-
+function for activation of neurons, and the Quasi Newton method
+is used as the algorithm for the training. As a result cumulative
+gain plot and as a measure of the quality of this model the
+maximum gain score is used.
+
+PAPER : 7
+name -> Application of Genetic Algorithm Optimized Neural Network Connection
+Weights for Medical Diagnosis of PIMA Indians Diabetes
+
+ABSTRACT->
+
+Neural Networks are one of many data mining analytical tools that can be utilized to make predictions for
+medical data. Model selection for a neural network entails various factors such as selection of the optimal
+number of hidden nodes, selection of the relevant input variables and selection of optimal connection
+weights. This paper presents the application of hybrid model that integrates Genetic Algorithm and Back
+Propatation network(BPN) where GA is used to initialize and optmize the connection weights of BPN .
+Significant feactures identified by using two methods :Decision tree and GA-CFS method are used as
+input to the hybrid model to diagonise diabetes mellitus. The results prove that, GA-optimized BPN
+approach has outperformed the BPN approach without GA optimization. In addition the hybrid GA-BPN
+with relevant inputs lead to further improvised categorization accuracy compared to results produced by
+GA-BPN alone with some redundant inputs.
+
+PAPER : 8
+name -> A New Method of Data Preparation for
+Classifying Diabetes Dataset
+
+ABSTRACT ->
+
+Method: Data preprocessing is an
+important step in building classification models. Pima Indian Diabetes dataset from University of California Irvine (UCI)
+repository is a challenging dataset with more number (48%) of missing values. Different steps of data preprocessing is
+performed on Pima Diabetes to improve the accuracy of the classification model. The proposed model includes outlier
+removal and imputation at stage 1, normalization at stage 2 and balancing the dataset at stage 3. After each stage of
+preprocessing, the model is evaluated using three classifiers: Support Vector Machine (SVM), Random Forest (RF) and
+K-nearest neighbor (Knn). Findings: It is clearly proved that after each stage of preprocessing, the classification accuracy
+increases. On completing all 3 stages of preprocessing, the diabetes dataset achieves a highest accuracy (82.14%) and
+balanced accuracy (81.94%) with Random Forest classifier when compared to SVM and Knn. Novelty/Improvements:
+The preprocessing steps, replacing the outliers using 5 and 95 percentile values with median imputation followed by
+Z-score normalization and balancing the dataset using smote improves the quality of Pima Diabetes dataset, thereby
+classification accuracy of the model increases. The same data preprocessing methods can also be applied to different
+datasets or different classifier models.
+
+PAPER : 9
+name -> A Soft Computing Approach to Provide Recommendation on PIMA Diabetes
+
+ABSTRACT ->
+
+The contributions in our research are First, we considered the PIMA dataset with 768
+instances and 9 features collected from UCI Repository datasets. Second, we attempt to
+understand PIMA dataset using Visualization. Third, Dimensionality reduction is
+performed based on Z Value obtained from Generalized Linear Model (GLM). Four, we
+applying Machine Learning algorithms and probabilistic modeling Techniques like
+Linear Discriminant Analysis (LDA), Logistic Regression, Generalized Liner Model
+(GLMNET), SVM Radial, kNN, Naive Bayes, Regressive Partitioning (rpart), Boosted
+Tree (C5.0), Bagged CART (treebag), Random Forest (RF), Generalized Boosted
+Modeling with respect to classification accuracy to find the best model for PIMA
+diabetes. Five, Evaluating the Diabetes Risk Factor (DRF) from selected features using
+Generalized Linear Model (GLM). Six, Designing the Membership function and construct
+Fuzzy rules to obtain different levels of Diabetes.
+
+PAPER : 10
+name ->A New Classwise k Nearest Neighbor (CKNN)
+Method for the Classification of Diabetes
+Dataset
+
+ABSTRACT->
+
+The general problem for data quality is missing data.
+The real datasets have lot of missing values. Mean method of
+imputation is the most common method to replace the missing
+values. In our previous work [23], we address the negative impact
+of missing value imputation and solution for improvement while
+evaluating the performance of kNN algorithm for classification of
+Diabetes data. In this paper, we address a new Class-wise k
+Nearest Neighbor (CkNN) method for the Classification of
+Diabetes Dataset. We selected diabetes dataset because it contains
+lot of missing values and the impact of imputation is very obvious.
+To measure the performance, we used Accuracy, Sensitivity and
+Specificity and Error rate as the metrics. The arrived results show
+the significant improvement measured with respect to the above
+metrics.
+
+PAPER : 11
+name -> Diabetes prediction using machine learning and explainable AI
+techniques
+
+ABSTRACT ->
+
+Globally, diabetes affects 537 million people, making it the deadliest and the most common
+non-communicable disease. Many factors can cause a person to get affected by diabetes,
+like excessive body weight, abnormal cholesterol level, family history, physical inactivity,
+bad food habit etc. Increased urination is one of the most common symptoms of this
+disease. People with diabetes for a long time can get several complications like heart dis-
+order, kidney disease, nerve damage, diabetic retinopathy etc. But its risk can be reduced
+if it is predicted early. In this paper, an automatic diabetes prediction system has been
+developed using a private dataset of female patients in Bangladesh and various machine
+learning techniques. The authors used the Pima Indian diabetes dataset and collected addi-
+tional samples from 203 individuals from a local textile factory in Bangladesh. Feature
+selection algorithm mutual information has been applied in this work. A semi-supervised
+model with extreme gradient boosting has been utilized to predict the insulin features of
+the private dataset. SMOTE and ADASYN approaches have been employed to manage the
+class imbalance problem. The authors used machine learning classification methods, that
+is, decision tree, SVM, Random Forest, Logistic Regression, KNN, and various ensem-
+ble techniques, to determine which algorithm produces the best prediction results. After
+training on and testing all the classification models, the proposed system provided the
+best result in the XGBoost classifier with the ADASYN approach with 81% accuracy,
+0.81 F1 coefficient and AUC of 0.84. Furthermore, the domain adaptation method has
+been implemented to demonstrate the versatility of the proposed system. The explainable
+AI approach with LIME and SHAP frameworks is implemented to understand how the
+model predicts the final results. Finally, a website framework and an Android smartphone
+application have been developed to input various features and predict diabetes instan-
+taneously.
+
+PAPER : 12
+name -> Leveraging Pima Dataset to Diabetes Prediction:
+Case Study of Deep Neural Network
+
+ABSTRACT->
+
+Diabetes is a chronic disease. In 2019, it was the ninth leading cause of death
+with an estimated 1.5 million deaths. Poorly controlled, diabetes can lead to
+serious health problems. That explains why early diagnosis of diabetes is very
+important. Several approaches that use Artificial Intelligence, specifically
+Deep Learning, have been widely used with promising results. The contribu-
+tion of this paper is in two-folds: 1) Deep Neural Network (DNN) approach is
+used on Pima Indian dataset to predict diabetes using 10 k-fold cross valida-
+tion and 89% accuracy is obtained; 2) comparative analysis of previous work
+is provided on diabetes prediction using DNN with the tested model. The re-
+sults showed that 10 k-fold cross-validation could decrease the efficiency of
+diabetes prediction models using DNN.
+
+PAPER : 13
+name -> Evolving fuzzy medical diagnosis of Pima Indians diabetes and of
+dermatological diseases
+
+ABSTRACT->
+
+This paper reviews a methodology for evolving fuzzy classification which allows data to be
+processed in online mode by recursively modifying a fuzzy rule base on a per-sample basis from data
+streams. In addition, it shows how this methodology can be improved and applied to the field of
+diagnostics, for two popular medical problems.
+Method: The vast majority of existing methodologies for fuzzy medical diagnostics require the data
+records to be processed in offline mode, as a batch. Unfortunately this allows only a snapshot of the
+actual domain to be analysed. Should new data records become available they require cost sensitive
+calculations due to the fact that re-learning is an iterative procedure. eClass is a relatively new
+architecture for evolving fuzzy rule-based systems, which overcomes these problems. However, it is data
+order dependent as different orders of the data result into different rule bases. Nonetheless, it is shown
+that models of eClass can be improved by arranging the order of the incoming data using a simple
+optimization strategy.
+Results: In regards to the Pima Indians diabetes dataset, an accuracy of 79.37% was obtained, which is
+0.84% lower than the highest in the literature. The proposed optimization strategy increased the
+accuracy and specificity of the model by 4.05% and 7.63% respectively. For the dermatology dataset, an
+accuracy of 97.55% was obtained, which is 1.65% lower than the highest in the literature. In this case, the
+proposed optimization strategy improved the accuracy of the model by 4.82%. The improved algorithm
+has been compared to other existing algorithms and seems to outperform the majority.
+Conclusions: This paper has shown that eClass can effectively be applied to the classification of diabetes
+and dermatological diseases from discrete numerical samples. The results of using a novel optimization
+strategy indicate that the accuracy of eClass models can be further improved. Finally, the system can
+mine human readable rules which could enable medical experts to gain better understanding of a sample
+under analysis throughout the traditional diagnostic process.
+
+PAPER : 14
+name -> Computational Approach to Clinical Diagnosis of
+Diabetes Disease: A Comparative Study
+
+ABSTRACT ->
+
+Diabetes is one of the most prevalent non-communicable diseases and is the 6th leading cause
+of death worldwide. It’s a chronic metabolic disorder which has no cure, however, it is a highly
+treatable condition, if diagnosed and managed on time to avoid its complications. This paper explores
+and compares various machine learning (ML) approaches that can help in determining the risk of
+diabetes at an early stage and aid in improving the medical diagnosis of diabetes. The paper considers
+two real-world datasets one is a diabetic clinical dataset (DCA) collected from a medical practitioner
+in the state of Assam, India during the year 2017-2018 and other is public PIMA Indian diabetic
+dataset. To analyze the various machine learning techniques on DCA and PIMA Indian diabetic
+datasets for the classification of diabetic and non-diabetic patients, different classifiers like perceptron,
+Gaussian process, linear discriminant analysis, quadratic discriminant analysis, statistical gradient
+descent, ridge regression classifier, support vector machines, k-nearest neighbors, decision tree, naïve
+Bayes, logistic regression, random forest and ELM for multiquadric, RBF, sigmoid activation functions
+are used. The results of numerical experiments suggested that logistic regression yields better
+performance in comparison to the other techniques.
+
+PAPER : 15
+name -> Dataset and Feature Analysis for Diabetes Mellitus
+Classification using Random Forest
+
+ABSTRACT->
+
+Diabetes Mellitus is a hazardous disease, and according to the World Health Organization
+(WHO), diabetes will be one of the main causes of death by 2030. One of the most popular diabetes
+10
+datasets is PIMA Indians, and this dataset has been widely tested on various machine learning (ML)
+methods, even deep learning (DL). But on average, ML methods are not able to produce good accu-
+racy. The quality of the dataset and features is the most influential thing in this case, so deeper invest-
+ment is needed to examine this dataset. This research will analyze and compare the PIMA Indians and
+Abelvikas datasets using the Random Forest (RF) method. The two datasets are imbalanced, in fact,
+the Abelvikas dataset is more imbalanced and has a larger number of classes so it is be more complex.
+The RF was chosen because it is one of the ML methods that has the best results on various diabetes
+datasets. Based on the test results, very contrasting results were obtained on the two datasets. Abelvikas
+had accuracy, precision, and recall, reaching 100%, and PIMA Indians only achieved 75% for accuracy,
+87% for precision, and 80% for the best recall. Testing was done with 3, 5, 7, 10, and 15 tree number
+parameters. Apart from that, it was also tested with k-fold validation to get valid results. This deter-
+mines that the features in the Abelvikas dataset are much better because more complete glucose fea-
+tures support them.
